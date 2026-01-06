@@ -14,11 +14,28 @@ O sistema apresenta um catálogo interativo de 7 pacotes de cursos profissionali
 - Valor total do investimento
 
 
-## Tecnologias Utilizadas
+## Estrutura do Projeto
 
-- Java
-- Scanner (para entrada de dados do usuário)
-- Switch-case (para navegação entre opções)
+```
+JavaApplication2/
+│
+├── .idea/                            # Configurações do IntelliJ IDEA
+├── Sistema/
+├── build/                            # Arquivos compilados
+├── nbproject/                        # Configurações do NetBeans
+├── out/
+│   └── production/JavaApplication.../
+├── src/
+│   └── javaapplication2/
+│       ├── JavaApplication2.java     # Classe principal do sistema
+│       ├── JavaApplication2.iml      # Módulo IntelliJ
+│       ├── build.xml                 # Script de build
+│       └── manifest.mf               # Arquivo manifest
+│
+├── out/
+├── README.md                         # Documentação do projeto
+└── Sistema decl Cursos Itech Edu.ml  # Arquivo adicional do sistema
+```
 
 ## Como Executar
 
