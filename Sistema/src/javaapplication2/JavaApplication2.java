@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class JavaApplication2 {
 
     public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner Scanner = new Scanner(System.in);
     System.out.println("Escolha o pacote abaixo:");
     System.out.println("------------------------");
          System.out.print("Codigo dos Pacotes\n"
@@ -19,7 +19,7 @@ public class JavaApplication2 {
          System.out.println("------------------------");
          System.out.print("Digite o Codigo:");
          
-        String cod = scanner.nextLine();
+        String cod = Scanner.nextLine();
       // System.out.println(cod);
         switch(cod) {
             case "1":
